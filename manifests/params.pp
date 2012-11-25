@@ -59,6 +59,7 @@ class mysql::params {
       $config_file          = '/etc/mysql/my.cnf'
       $log_error            = '/var/log/mysql/error.log'
       $ruby_package_name    = 'libmysql-ruby'
+      $php_package_name     = 'php5-mysql'
       $python_package_name  = 'python-mysqldb'
       $java_package_name    = 'libmysql-java'
       $root_group           = 'root'
